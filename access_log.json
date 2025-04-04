@@ -1,0 +1,66 @@
+[
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "alice",
+        "user_id": "Auth001",
+        "application": "Money Market Instruments",
+        "access_type": "Write",
+        "result": "Access granted"
+    },
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "alice",
+        "user_id": "Auth001",
+        "application": "Loan Management",
+        "access_type": "Write",
+        "result": "Denied: 'Write' not allowed on 'Loan Management'"
+    },
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "alice",
+        "user_id": "Auth001",
+        "application": "Money Market Instruments",
+        "access_type": "Write",
+        "result": "Denied: Invalid credentials"
+    },
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "charlie",
+        "user_id": "N/A",
+        "application": "Money Market Instruments",
+        "access_type": "Read",
+        "result": "Denied: Unknown username 'charlie'"
+    },
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "alice",
+        "user_id": "Auth001",
+        "application": "Money Market Instruments",
+        "access_type": "Write",
+        "result": "Granted"
+    },
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "alice",
+        "user_id": "Auth001",
+        "application": "Loan Management",
+        "access_type": "Write",
+        "result": "Access Denied: Auth001 (Role B) -> Loan Management (Write)"
+    },
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "bob",
+        "user_id": "Auth002",
+        "application": "Administration",
+        "access_type": "Approve",
+        "result": "Granted"
+    },
+    {
+        "timestamp": "Fri, 04 Apr 2025 02:17:57 GMT",
+        "user": "bob",
+        "user_id": "Auth002",
+        "application": "Loan Management",
+        "access_type": "Write",
+        "result": "Access Denied: Auth002 (Role I) -> Loan Management (Write)"
+    }
+]
