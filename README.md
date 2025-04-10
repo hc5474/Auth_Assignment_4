@@ -21,5 +21,5 @@
 ### Cell 3 Lines 9,13,19 implement Task 1-E-a-iii
 ### Cell 3 Lines 9,13,19 implement Task 1-E-a-iv
 ### Cell 3 Lines 27-35 implement Task 1-E-b-i
-### Cell 3 Lines 27435 implement Task 1-E-b-ii
+### Cell 3 Lines 27-35 implement Task 1-E-b-ii
 ### Cell 3 Lines 52-55 implement Task 1-E-b-iii
